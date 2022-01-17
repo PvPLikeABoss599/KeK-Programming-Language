@@ -1,0 +1,39 @@
+// Comment 
+/*
+    Multi Line Comment
+*/
+
+#Insert "@kek_root/net" // Same thing as the first line
+#Insert "new.kdf" // File in the same directory
+#Insert "../new.kdf" // Looks thru the directory before the current path
+
+KEK main(argc. argv) {
+    print("hello world! %d %s\r\n", argc, argv[0]);
+};
+
+// Normal/Private Function
+KEK test(0) {
+    print("This is a normal function. Private function\r\n");
+    var iwroteitagain_kek = 0;
+
+    if(lang == i) {
+        return 0;
+    } else if(ilang == C) {
+        return 0;
+    };
+};
+
+KEK test(0) {
+    var message = "This is a string return function";
+    return message;
+};
+
+KEK test(name) {
+    return "This is a string return function with string arguments (${name})";
+};
+
+KEK test_funcs(0)
+{
+    printf("%s\r\n", test());
+    return test("get thrown in the trash");
+};
