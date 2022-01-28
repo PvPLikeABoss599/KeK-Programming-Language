@@ -5,7 +5,7 @@
 #include "../kek_compiler/errors.h"
 #include "../kek_library/kek_lib.h"
 
-KeKLang Build_iLang(KeKLang *i)
+KeKLang Build_KeKLang(KeKLang *i)
 {
     util_zero(i->main_file, 64);
     i->main_function = malloc(sizeof(Function));
